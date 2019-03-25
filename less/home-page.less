@@ -61,6 +61,12 @@
       }
 
       .btn {
+        .signup-btn(@btn-bg-color; white);
+        text-align: center;
+        width: 40%;
+        &:hover {
+          .signup-btn(white; @btn-bg-color);
+        }
       }
     }
 
