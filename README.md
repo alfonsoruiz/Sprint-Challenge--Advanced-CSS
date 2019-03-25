@@ -34,13 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-2. Describe what it means to be mobile first vs desktop first.
+Adaptive: An adaptive website will serve up a pre defined layout file and version of a website for each specific screen size that taken into consideration. 
+
+Although a quick way to achieve a pleasant user experience for pre defined screen sizes, adaptive websites still tend to have hard coded sizing units which are too rigid to work well across the huge variety potential screens that can be used to view a website.
+
+Responsive: Responsive websites will serve up one layout file that will work well for users regardless of screen size. 
+
+Although more time consuming the use of responsive sizing units for layouts in responsive websites allows for more flexibility and a pleasant viewing experience across a much larger variety of screen sizes.  
+
+2. Describe what it means to be mobile first vs desktop first?
+
+Mobile first and Desktop first are two different approaches to building websites. 
+
+In Desktop first approach you would start by designing and building your website and layout to accommodate larger screen sizes first and then reducing your layout down in way that makes sense to accommodate smaller screen sizes. 
+
+A Mobile first approach you would start by designing and building your website and layout to accommodate smaller mobile device screens first and then expanding your layout in a way that makes sense to accommodate larger screen sizes.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting the 62.5% as the font size on the html tag allows us to simplify rem sizing by setting the root font size as a percentage of the default browser font-size. For example 1 rem would be equal to 10 pixels, 1.5 rem would be equal to 15pixels etc.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Pre processors allow CSS to be written in a less repetitive and more efficient way by introducing features that can be found in more general programing languages. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing would be writing less in individual files and importing them to one central less file. It makes it way easier to find and read information. This is also the concept that gives me the most trouble because I’m not use to writing or thinking about CSS/LESS in this way yet. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
