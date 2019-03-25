@@ -8,9 +8,16 @@
             font-size: 4rem;
             margin-bottom: 15px;
         }
+        .nav-links {
+            .add-flex();
+            justify-content: space-around;
+            width: 30%;
+            @media @phone {
+                width: 80%;
+            }
+        }
         .nav-links a {
             text-decoration: none;
-            margin-right: 30px;
             font-family: @river-bend;
             color: @river-bend;
             font-size: 1.6rem;
